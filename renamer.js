@@ -6,27 +6,6 @@ const rl1 = readline.createInterface(
 );
 const  path = require("path");
 
-////////////////    CLI tutorial starts
-
-//1. method
-// rl.question("Milyen magas vagy?", (magas) => {
-//     console.log(`Gratulálok, te ${magas} cm vagy!`)
-// })
-
-//2. method
-// rl.setPrompt("Promt: ");
-// rl.prompt();
-// rl.on('line', (arg) => {
-//     console.log(`Ezt írtad be: ${arg}`);
-//     rl.close();
-// });
-
-//Close promt
-// rl.close();
-
-////////////////    CLI tutorial OVER
-
-////////////////    Program starts
 //0. Init variables
 const seriesData = [];
 const questions = [
